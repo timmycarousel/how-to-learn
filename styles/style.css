@@ -1,4 +1,5 @@
 .page {
+  margin: 0;
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -10,6 +11,10 @@
 }
 
 .header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -17,9 +22,28 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
+.header__main-illustration {
+  position: absolute;
+  background-image: url("../images/header-image.png");
+  width: 756px;
+  height: 608px;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ 
+  
+}
 .header__square-pic {
+  background-color: #2f80ed;
+  position: absolute;
   height: 568px;
   width: 568px;
+  top: 64px;
+  right: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -28,4 +52,36 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo_place_header {
+  z-index: 2;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  height: 32px;
+  width: 228px;
+  background-image: url("../images/logo_place_header.svg");
+}
+.header__title {
+  z-index: 2;
+  left: 64px;
+  max-width: 730px;
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
+}
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  max-width: 338px;
+  z-index: 2;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+.header1 {
+  border: 1px solid red;
 }
