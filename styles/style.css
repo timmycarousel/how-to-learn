@@ -260,7 +260,6 @@
 .table_dark {
   padding: 0;
   margin-bottom: 90px;
-  border: 1px solid red;
 }
 .table__cell_theme_dark {
   width: 200px;
@@ -285,15 +284,15 @@
 }
 
 .footer {
+  padding: 0;
   margin: 0;
   background-color: #1f1f1f;
   color: white;
-  border: 1px solid red;
   min-height: 350px;
 }
 
 .logo_place_footer {
-  border: 1px solid red;
+  
   background-image: url(../images/logo_place_footer.svg);
 }
 
@@ -303,16 +302,13 @@
   padding-bottom: 18px;
 }
 .footer__columns {
-  margin-top: 60px;
+  padding-top: 60px;
   flex-basis: 711px;
   display: flex;
-  border: 1px solid red;
   width: 90%;
   justify-content: space-between;
   align-self: flex-start;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
+  margin: auto 0 auto 40px;
   min-height: 250px;
 }
 
@@ -320,23 +316,22 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  border: 1px solid red;
   margin: 0;
 }
 
 .footer__column_content_info {
   flex-direction: column;
   display: flex;
-  border: 1px solid red;
   margin: 0;
   justify-content: flex-start;
+  margin-left: 20%;
+
 }
 
 .footer__column_content_social {
   flex-direction: column;
   display: flex;
   justify-content: flex-start;
-  border: 1px solid red;
   margin: 0;
 }
 
@@ -350,7 +345,6 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
-  border: 1px solid red;
   margin: 0;
   padding-bottom: 16px;
 }
