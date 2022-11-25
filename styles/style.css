@@ -198,7 +198,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #f2f2f2;
-  background-image: url(../images/feynman.png); 
+  background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   height: 890px;
   background-position: left bottom;
@@ -246,7 +246,7 @@
 
 .section-title_theme_dark {
   padding-top: 90px;
-  color: white; 
+  color: white;
   margin: 0;
   z-index: 2;
 }
@@ -261,6 +261,7 @@
   padding: 0;
   margin-bottom: 90px;
 }
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -292,7 +293,7 @@
 }
 
 .logo_place_footer {
-  
+
   background-image: url(../images/logo_place_footer.svg);
 }
 
@@ -301,6 +302,7 @@
   padding-top: 18px;
   padding-bottom: 18px;
 }
+
 .footer__columns {
   padding-top: 60px;
   flex-basis: 711px;
@@ -342,6 +344,7 @@
   justify-content: space-around;
   margin-top: 20px;
 }
+
 .footer__column-link {
   color: white;
   text-decoration: none;
