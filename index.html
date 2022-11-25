@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="styles\normalize.css">
-  <link rel="stylesheet" href="styles\style.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -15,30 +15,30 @@
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни? <a class="link" href="#">Узнать &#8594;</a></p>
+        жизни? <a class="link header__link" href="#">Узнать &#8594;</a></p>
       <div class="header__main-illustration"></div>
       <div class="header__square-pic"></div>
     </header>
     <main class="content">
-      <div class="description">
-        <div class="columns two-columns">
-          <h2 class="columns two-columns__brief">Главные проблемы в обучении</h2>
-          <div class="columns two-columns__main-text">
-            <p class="columns two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
+      <section class="description">
+        <div class="two-columns">
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
               маетриал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше
               сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит
               пользу.</p>
-            <p class="columns two-columns__paragraph"><span class="two-columns__span-accent">Вывод: </span>учиться тоже
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод: </span>учиться тоже
               нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
-            <p class="columns two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к
+            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к
               обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в
               Практикуме.</p>
           </div>
         </div>
-      </div>
-      <div class="digits">
-        <h1 class="section-title">Цифры и факты</h1>
-        <h2 class="section-subtitle">Про учёбу и мозг</h2>
+      </section>
+      <section class="digits">
+        <h2 class="section-title">Цифры и факты</h2>
+        <h3 class="section-subtitle">Про учёбу и мозг</h3>
         <div class="table">
           <div class="table__cell">
             <p class="table__heading">86 миллиардов
@@ -92,14 +92,14 @@
             </p>
           </div>
         </div>
-      </div>
+      </section>
       <div class="feynman">
-        <h1 class="feynman__title">Метод Фейнмана</h1>
-        <h2 class="feynman__sub-title">Выучить и не забыть.</h2>
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
         <a class="link feynman__link" href="#">Подробнее &#8594;</a>
       </div>
       <div class="kaufman">
-        <h1 class="section-title section-title_theme_dark">Принципы обучения</h1>
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <div class="table table_dark">
           <div class="table__cell table__cell_theme_dark">
@@ -158,27 +158,29 @@
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__columns_content_copyring">
+        <div class="footer__column footer__column_content_copyring">
           <div class="logo logo_place_footer"></div>
-          <div class="footer__author">&copy Тимофей Воронов</div>
+          <p class="footer__author">&copy; Тимофей Воронов</p>
         </div>
-        <div class="footer__column_content_info">
+        <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
-          <div class="footer__column-links">
+          <nav class="footer__column-links">
             <a class="footer__column-link" href="#">Главная</a>
             <a class="footer__column-link" href="#">Концепция</a>
             <a class="footer__column-link" href="#">Наставники</a>
-          </div>
+          </nav>
         </div>
-        <div class="footer__column_content_social">
+        <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <div class="footer__social-icon">
-            <a class="footer__column-link" href="#"><img width="16" height="16" src="./images/youtube-icon.svg"
-                alt=">Ютуб"> YouTube</a>
-            <a class="footer__column-link" href="#"><img width="16" height="16" src="./images/vk_color_white.svg"
-                alt="ВКонтакте"> ВКонтакте</a>
-            <a class="footer__column-link" href="#"><img width="16" height="16" src="./images/tiktok-icon.svg"
-                alt="ТикТок"> TikTok</a>
+          <div class="footer__column footer__column_content_social">
+            <a class="footer__social-icon" href="#"><img width="16" height="16" src="./images/youtube-icon.svg"
+                alt=">Ютуб"><a class="footer__column-link" href="#"> YouTube</a></a>
+                <br>
+            <a class="footer__social-icon" href="#"><img width="16" height="16" src="./images/vk_color_white.svg"
+                alt="ВКонтакте"><a class="footer__column-link" href="#"> ВКонтакте</a></a>
+                <br>            
+            <a class="footer__social-icon" href="#"><img width="16" height="16" src="./images/tiktok-icon.svg"
+                alt="ТикТок"><a class="footer__column-link" href="#"> TikTok</a></a>
           </div>
         </div>
       </div>

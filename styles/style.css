@@ -80,7 +80,7 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  max-width: 338px;
+  max-width: 388px;
   z-index: 2;
   line-height: 25px;
   font-size: 18px;
@@ -122,8 +122,6 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
-  padding-top: 30px;
-  padding-bottom: 30px;
   margin: 0;
 }
 
@@ -132,11 +130,15 @@
   margin: 0;
 }
 
+.two-columns__paragraph:last-child {
+  padding-bottom: 0px;
+}
+
 .digits {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   margin: 0;
 }
 
@@ -214,7 +216,7 @@
 
 }
 
-.feynman__sub-title {
+.feynman__subtitle {
   padding-top: 70px;
   margin: 0;
   line-height: 51px;
@@ -300,11 +302,14 @@
   margin: 0;
   padding-top: 18px;
   padding-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+
 }
 
 .footer__columns {
   padding-top: 60px;
-  flex-basis: 711px;
   display: flex;
   width: 90%;
   justify-content: space-between;
@@ -313,11 +318,12 @@
   min-height: 250px;
 }
 
-.footer__columns_content_copyring {
+.footer__column_content_copyring {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   margin: 0;
+  flex-basis: 711px;
 }
 
 .footer__column_content_info {
@@ -325,7 +331,7 @@
   display: flex;
   margin: 0;
   justify-content: flex-start;
-  margin-left: 20%;
+  align-self:initial;
 
 }
 
@@ -341,24 +347,31 @@
   flex-direction: column;
   margin: 0;
   justify-content: space-around;
-  margin-top: 20px;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
   margin: 0;
-  padding-bottom: 16px;
+  word-spacing: 10px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link:last-child {
+  padding-bottom: 16px; 
 }
 
 .footer__column-heading {
   margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;  
+  margin-bottom: 20px;
 }
 
-.footer__social-icon {
-  display: flex;
-  flex-direction: column;
+.footer__column_content_social {
+  display: inline-block;
   margin: 0;
-  margin-top: 20px;
-  word-spacing: 10px;
 }
