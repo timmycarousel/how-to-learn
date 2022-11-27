@@ -338,9 +338,6 @@
 }
 
 .footer__column_content_social {
-  flex-direction: column;
-  display: flex;
-  justify-content: flex-start;
   margin: 0;
 }
 
@@ -372,10 +369,7 @@
   margin-bottom: 20px;
 }
 
-.footer__column_content_social {
-  display: inline-block;
-  margin: 0;
-}
+
 
 .footer__social-icon {
   display: inline-flex;
