@@ -31,14 +31,12 @@
 
 .header__main-illustration {
   position: absolute;
-  background-image: url("../images/header-image.png");
+  display: flex;
   width: 756px;
   height: 608px;
   z-index: 1;
   bottom: 0;
   right: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
   margin: 0;
 }
 
@@ -175,6 +173,8 @@
   margin: 0;
   padding-top: 60px;
   width: 250px;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .table__heading {
@@ -182,6 +182,7 @@
   font-size: 24px;
   font-weight: 600;
   margin: 0;
+  padding-left: 0;
 }
 
 .table__text {
@@ -190,6 +191,7 @@
   font-weight: normal;
   padding-top: 20px;
   margin: 0;
+  padding-left: 0;
 }
 
 .feynman {
@@ -331,7 +333,7 @@
   display: flex;
   margin: 0;
   justify-content: flex-start;
-  align-self:initial;
+  align-self: initial;
 
 }
 
@@ -353,25 +355,32 @@
   color: white;
   text-decoration: none;
   margin: 0;
-  word-spacing: 10px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
 }
 
 .footer__column-link:last-child {
-  padding-bottom: 16px; 
+  padding-bottom: 16px;
 }
 
 .footer__column-heading {
   margin: 0;
   line-height: 30px;
   font-size: 18px;
-  font-weight: 600;  
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
 .footer__column_content_social {
   display: inline-block;
+  margin: 0;
+}
+
+.footer__social-icon {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
   margin: 0;
 }
