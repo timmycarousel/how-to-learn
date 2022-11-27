@@ -338,14 +338,16 @@
 }
 
 .footer__column_content_social {
+  display: flex;
   margin: 0;
+  flex-direction: column;
 }
 
 .footer__column-links {
   display: flex;
   flex-direction: column;
   margin: 0;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 .footer__column-link {
@@ -369,12 +371,9 @@
   margin-bottom: 20px;
 }
 
-
-
 .footer__social-icon {
-  display: inline-flex;
   width: 16px;
   height: 16px;
-  padding-right: 10px;
   margin: 0;
+  padding-right: 10px;
 }
