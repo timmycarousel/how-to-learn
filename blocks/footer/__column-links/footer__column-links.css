@@ -1,0 +1,11 @@
+.footer__column-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  
+  
+  .footer__column-link:last-child {
+    padding-bottom: 16px;
+  }

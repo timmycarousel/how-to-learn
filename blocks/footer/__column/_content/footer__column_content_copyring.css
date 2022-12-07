@@ -1,0 +1,7 @@
+.footer__column_content_copyring {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    flex-basis: 711px;
+  }
