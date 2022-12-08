@@ -1,0 +1,10 @@
+.khan__buy-link {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    padding-left: 48px;
+    height: 42px;
+}
