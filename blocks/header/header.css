@@ -1,13 +1,20 @@
 .header {
-    margin: -2;
-    position: relative;
-    background-color: #f0f2f2;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 98vh;
-    min-height: 598px;
-    max-height: 754px;
-    overflow: hidden;
-    /* выше установили ограничения для секции */
-  }
+  margin: -2;
+  position: relative;
+  background-color: #f0f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 98vh;
+  min-height: 598px;
+  max-height: 754px;
+  overflow: hidden;
+  /* выше установили ограничения для секции */
+}

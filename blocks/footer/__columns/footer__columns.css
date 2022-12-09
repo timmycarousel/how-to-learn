@@ -1,9 +1,14 @@
 .footer__columns {
-    padding-top: 60px;
-    display: flex;
-    width: 90%;
-    justify-content: space-between;
-    align-self: flex-start;
-    margin: 0 auto 40px auto;
-    min-height: 250px;
-  }
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0 auto 40px auto;
+  min-height: 250px;
+}

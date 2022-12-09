@@ -1,8 +1,10 @@
 .link {
-    color: #2f80ed;
-    text-decoration: none;
-  }
+  color: #2f80ed;
+  text-decoration: none;
+}
 .link:hover {
-    transition-duration: 0.5s;
-    opacity: 0.6;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  opacity: 0.6;
 }

@@ -1,5 +1,10 @@
 .footer__column_content_social {
-    display: flex;
-    margin: 0;
-    flex-direction: column;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}

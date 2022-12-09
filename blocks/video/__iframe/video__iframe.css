@@ -1,7 +1,9 @@
 .video__iframe {
     margin: 0;
     padding: 50px 20px 0 0;
+    border: 0;
 }
+
 .video__iframe:last-child {
     padding-right: 0;
 }
