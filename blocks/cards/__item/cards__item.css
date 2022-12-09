@@ -7,8 +7,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 200px;
+    max-width: 240px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+   margin-right: 100px;
+}
+
+.cards__item:nth-child(3n) {
+    margin-right: 0px;
 }

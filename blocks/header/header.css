@@ -1,7 +1,8 @@
 .header {
-  margin: -2;
+  margin: 0;
+  padding: 0;
   position: relative;
-  background-color: #f0f2f2;
+  background-color: #f2f2f2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,9 +13,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 98vh;
-  min-height: 598px;
-  max-height: 754px;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
   overflow: hidden;
-  /* выше установили ограничения для секции */
+
 }

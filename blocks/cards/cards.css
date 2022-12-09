@@ -4,12 +4,9 @@
      display: flex;
      -ms-flex-wrap: wrap;
          flex-wrap: wrap;
-     -moz-column-gap: 100px;
+     /* -moz-column-gap: 100px;
           -webkit-column-gap: 100px;
-             column-gap: 100px;
+             column-gap: 100px; */
      width: 920px;
      margin: 0;
-     -webkit-box-pack: justify;
-         -ms-flex-pack: justify;
-             justify-content: space-between;
      }
