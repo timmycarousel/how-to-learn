@@ -10,5 +10,6 @@
   right: 0;
   margin: 0;
   padding-right: 0;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }

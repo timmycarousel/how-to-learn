@@ -3,6 +3,8 @@
     padding: 0;
     width: 620px;
     height: 608px;
-    object-position:top;
-    object-fit: cover;
+    -o-object-position:top;
+       object-position:top;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
